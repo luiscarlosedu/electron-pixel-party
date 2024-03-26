@@ -276,6 +276,7 @@ section.home#sobre h1 {
         width: 50vw;
         height: 100vh;
         background-color: var(--cor02);
+        opacity: 95%;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
