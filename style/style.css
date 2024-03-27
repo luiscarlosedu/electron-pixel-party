@@ -17,7 +17,6 @@
 html {
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*Tirar o overlay azul do mobile*/
-    background-color: #7642DE;
 }
 
 body {
@@ -27,7 +26,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
-    overflow-y: hidden;
+    overflow-y: hidden;    
+    background-color: #7642DE;
 }
 
 header.header {
