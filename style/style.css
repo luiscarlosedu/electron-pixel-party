@@ -26,8 +26,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
-    overflow-y: hidden;    
-    background-color: #7642DE;
+    overflow-y: hidden;
 }
 
 header.header {
