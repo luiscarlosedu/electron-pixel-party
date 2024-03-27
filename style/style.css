@@ -24,7 +24,7 @@ body {
     background: url(imagens/background.png);
     background-size: cover;
     background-position: center center;
-    min-height: 100vh;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
     overflow-y: hidden;

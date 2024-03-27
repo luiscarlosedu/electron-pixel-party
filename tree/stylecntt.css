@@ -13,14 +13,15 @@ html {
     min-height: 100vh;
     font-size: 15px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*tirar o overlay automático do mobile*/
-    background: linear-gradient(to right, #7642DE, #250D53);
+    background-color: #7642DE;
 }
 
 body {
-    height: 100%;
+    height: 100vh;
     width: 100%;
     background: url(../style/imagens/background.png);
-    background-size: ;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     animation-name: animacao;
