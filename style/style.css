@@ -261,6 +261,10 @@ section.home#sobre h1 {
         text-align: center;
     }
 
+    .home-content .btn-box a {
+        padding: 7px;
+    }
+
 }
 
 @media screen and (max-width: 570px) {
