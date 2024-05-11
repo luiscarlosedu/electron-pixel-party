@@ -46,8 +46,14 @@ header.header {
     transition: .3s;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+
 .logo img {
-    width: 160px;
+    width: 170px;
+    padding: 20px
 }
 
 .nav-bar a {
