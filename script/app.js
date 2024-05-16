@@ -54,3 +54,16 @@ const mobileNavbar = new MobileNavBar(
     ".nav-bar a"
 );
 mobileNavbar.init();
+
+let header = document.querySelector('.header');
+
+function handleScroll() {
+    var scrollPosition = window.scrollY;
+    var widthPosition = window.innerWidth;
+
+    if(scrollPosition > 0 && widthPosition < 768) {
+        header.style.background = 'rgba(0, 0, 0, 0.3)'
+    } else {
+        header.style.background = 'transparent'
+    }
+}

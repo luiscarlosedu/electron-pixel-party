@@ -27,6 +27,7 @@ body {
     background-attachment: fixed;
     color: white;
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 header.header {
@@ -34,8 +35,9 @@ header.header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 7px 4%;
+    padding: 0px 4%;
     background: transparent;
+    backdrop-filter: blur(20px);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -144,7 +146,7 @@ section.home {
     position: relative;
     width: 100%;
     border: 2px solid white;
-    border-radius: 10px;
+    border-radius: 14px;
     color: white;
     text-decoration: none;
     text-align: center;
