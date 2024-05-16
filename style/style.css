@@ -234,10 +234,14 @@ section.home#sobre h1 {
     }
 
     header.header {
-        position: sticky;
+        position: fixed;
         margin-bottom: -120px;
     }
     
+    .logo img {
+        width: 35vw;
+    }
+
     .card {
         margin-bottom: -80px;
     }
@@ -275,6 +279,7 @@ section.home#sobre h1 {
     
     body {
         overflow-y: auto;
+        overflow-x: hidden;
     }
 
     html {
@@ -285,7 +290,7 @@ section.home#sobre h1 {
 @media screen and (max-width: 570px) {
 
     body {
-        overflow-x: none;
+        overflow-x: hidden;
     }
 
     nav.nav-bar {
