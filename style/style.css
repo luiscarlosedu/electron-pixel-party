@@ -17,6 +17,8 @@
 html {
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /*Tirar o overlay azul do mobile*/
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 body {
@@ -27,7 +29,6 @@ body {
     background-attachment: fixed;
     color: white;
     overflow-y: hidden;
-    overflow-x: hidden;
 }
 
 header.header {
@@ -239,7 +240,8 @@ section.home#sobre h1 {
     }
     
     .logo img {
-        width: 35vw;
+        width: 25vw;
+        padding: 20px 0px;
     }
 
     .card {
