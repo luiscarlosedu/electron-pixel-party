@@ -63,11 +63,12 @@ header h1 > a {
 
 section.btn-links {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     gap: 20px;
+    text-align: center;
 }
 
-a.link button {
+/* a.link button {
     width: 100%;
     padding: 10px 20px;
     background: transparent;
@@ -84,7 +85,7 @@ a.link button:hover {
     color: #250D53;
     box-shadow: 1px 1px 4px white;
     font-weight: bolder;
-}
+} */
 
 footer {
     text-align: center;

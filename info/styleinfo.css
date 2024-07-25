@@ -8,72 +8,64 @@
 }
 
 body {
-    background: url(../style/imagens/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top left;
-    height: 100vh;
+    background-color: #121212;
 }
 
-header {
+.info-container {
+    max-width: 1280px;
+    margin: auto;
     width: 100%;
+    padding: 0px 16px;
+}
+
+header.info-header {
+    width: 100%;
+    background-color: #710cac;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#info-container-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 4%;
-    background: rgba(0, 0, 0, 0.592);
-    backdrop-filter: blur(20px);
+}
+
+.info-qrcode i {
     color: white;
+    text-decoration: none;
+    font-size: 40px;
+    
 }
 
-.logo img {
-    width: 130px;
-    user-select: none;
-    padding: 10px;
+header.info-header img {
+    width: 140px;
+    padding-top: 5px;
 }
 
-nav a {
-    color: white;
-    font-size: 20px;
-}
-
-.container {
-    max-height: 430px;
+.info-section-bg {
     width: 100%;
-}
-
- section.electron {
-    box-shadow: inset 0px 6px 20px rgba(0, 0, 0, 0.526);
-    background: url(../style/imagens/electron-section.png);
+    height: 300px;
+    margin-top: 16px;
+    background: url('./section-bg-eep.png');
+    background-size: contain;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 440px;
-    width: 100%;
-    display: block;
-    border-image: fill 0 linear-gradient(#0003, #0000006a);
- }
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
 
-@media screen and (max-width: 978px) {
-    .container {
-        height: 200px;
-    }
-
-    section.electron {
-        background-image: url(../style/imagens/ELECTRON\ PIXEL\ PARTY_20240517_215529_0000.png);
+@media screen and (max-width: 1040px) {
+    .info-section-bg {
+        height: 300px;
+        background-size: contain;
     }
 }
 
-@media screen and (max-width: 768px) {
-    section.electron {
-        height: 250px;
-        background-image: url(../style/imagens/electron-section.png);
-    }
-}
-
-@media screen and (max-width: 550px) {
-    section.electron {
-        height: 220px;
-        background-image: url(../style/imagens/electron-section.png);
+@media screen and (max-width: 715px) {
+    .info-section-bg {
+        background: url(../style/imagens/ELECTRON\ PIXEL\ PARTY_20240517_215529_0000.png);
+        background-position-x: center;
+        background-size: contain;
+        background-repeat: no-repeat;
     }
 }
