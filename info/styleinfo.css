@@ -35,13 +35,30 @@ header.info-header {
 .info-qrcode i {
     color: white;
     text-decoration: none;
-    font-size: 40px;
-    
+    font-size: 30px;
+}
+
+.info-qrcode a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.info-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header.info-header img {
-    max-width: 140px;
-    padding-top: 5px;
+    max-width: 125px;
 }
 
 .info-section-bg {
@@ -67,5 +84,9 @@ header.info-header img {
         background-position-x: center;
         background-size: contain;
         background-repeat: no-repeat;
+    }
+
+    header.info-header img {
+        max-width: 90px;
     }
 }
