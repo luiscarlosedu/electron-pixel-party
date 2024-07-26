@@ -90,3 +90,8 @@ header.info-header img {
         max-width: 90px;
     }
 }
+
+@keyframes animacao {
+    from {opacity: 0;}
+    to {opacity: initial;}
+}

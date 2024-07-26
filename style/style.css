@@ -108,7 +108,7 @@ ul {
 
 
 section.home {
-    height: 100vh;
+    height: 100dvh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -302,7 +302,7 @@ section.home#sobre h1 {
         top: 0;
         right: 0;
         width: 50vw;
-        height: 100vh;
+        height: 100dvh;
         background-color: #11001cda;
         backdrop-filter: blur(10px);
         opacity: 95%;
