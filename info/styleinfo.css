@@ -107,6 +107,19 @@ header.info-header img {
     margin: 10px 0px;
 }
 
+.info-footer {
+    background-color: #710cac;
+    color: white;
+    padding: 10px 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.info-footer a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 
 @media screen and (min-width: 1040px) {
