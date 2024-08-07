@@ -178,6 +178,12 @@ header.info-header img {
         background-size: contain;
         background-repeat: no-repeat;
     }
+
+    .info-section-content {
+        padding: 0px 5px;
+        font-size: 14px;
+    }
+
 }
 
 @media screen and (max-width: 571px) {

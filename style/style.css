@@ -23,13 +23,17 @@ html {
 }
 
 body {
-    background: url(imagens/background.png);
+    /* background: url(imagens/background.png);
     background-size: cover;
     background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: no-repeat; */
+    background-attachment: fixed; 
     color: white;
     overflow-y: hidden;
+    background: rgb(53,5,90);
+    background: linear-gradient(190deg, rgba(53,5,90,1) 29%, rgb(58, 30, 99) 91%);
+    /* background: linear-gradient(135deg, #2e014d, #2e014e, #2e004d);
+    background-size: cover; */
 }
 
 header.header {
