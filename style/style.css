@@ -223,8 +223,14 @@ section.home#sobre h1 {
     font-size: 15px;
 }
 
+.home-content.creditos p > a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
 #creditos-2ds {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .card.creditos-card img {
@@ -305,6 +311,10 @@ section.home#sobre h1 {
     html {
         scroll-behavior: smooth;
         overflow-y: auto;
+    }
+
+    .home-content.creditos p {
+        text-align: center;
     }
 }
 
