@@ -219,6 +219,19 @@ section.home#sobre h1 {
     font-size: 4vw;
 }
 
+.home-content.creditos p {
+    font-size: 15px;
+}
+
+#creditos-2ds {
+    font-size: 20px;
+}
+
+.card.creditos-card img {
+    border-radius: 6px;
+}
+
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1150px) {
