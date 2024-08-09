@@ -64,14 +64,15 @@ section.btn-links {
     justify-content: center;
     gap: 20px;
     text-align: center;
+    flex-direction: column;
 }
 
-/* a.link button {
+a.link button {
     width: 100%;
     padding: 10px 20px;
     background: transparent;
     color: white;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 20px;
     font-size: 1em;
     cursor: pointer;
@@ -83,7 +84,7 @@ a.link button:hover {
     color: #250D53;
     box-shadow: 1px 1px 4px white;
     font-weight: bolder;
-} */
+}
 
 
 .btn-links p {
@@ -99,6 +100,12 @@ footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+.btn-links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 /* KEYFRAMES */
