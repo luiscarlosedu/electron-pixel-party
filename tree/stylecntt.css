@@ -24,39 +24,62 @@ body {
     height: 100dvh;
 }
 
-.container {
-    height: 100%;
-    max-width: 550px;
+.container-contato {
+    width: 100%;
+    max-width: 1400px;
     margin: 0 auto;
+    height: 100dvh;
     display: flex;
-    flex-direction: column;
+    align-items: center;
     justify-content: center;
     padding: 20px;
-    color: white;
     animation-name: animacao;
     animation-duration: 2s;
     animation-delay: .1s;
     transition: .3s;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 40px;
+.contato-main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-header img {
-    max-width: 220px;
-    margin-bottom: 20px;
+.contato-main article {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 20px;
 }
 
-header h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
+.contato-main img {
+    max-width: 240px;
 }
 
-header h1 > a {
-    text-decoration: none;
+.contato-main h1 > a {
     color: white;
+    text-decoration: none;
+}
+
+.contato-main article > p {
+    max-width: 580px;
+    text-align: justify;
+}
+
+.contato-main aside {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.contato-main aside p {
+    text-align: center;
 }
 
 section.btn-links {
@@ -69,11 +92,12 @@ section.btn-links {
 
 a.link button {
     width: 100%;
+    max-width: 600px;
     padding: 10px 20px;
     background: transparent;
     color: white;
     border: 2px solid white;
-    border-radius: 20px;
+    border-radius: 5px;
     font-size: 1em;
     cursor: pointer;
     transition: 0.5s;
@@ -83,29 +107,45 @@ a.link button:hover {
     background-color: rgba(255, 255, 255, 0.659);
     color: #250D53;
     box-shadow: 1px 1px 4px white;
-    font-weight: bolder;
 }
 
 
-.btn-links p {
-    text-align: justify;
+@media screen and (max-width: 1040px) {
+    .contato-main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .contato-main article {
+        display: flex;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .contato-main article > p {
+        text-align: justify;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .contato-main aside {
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .article-logo img {
+        margin-left: 10px;
+    }
 }
 
-footer {
-    text-align: center;
-    margin: 30px 0px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.btn-links-container {
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
+@media screen and (max-height: 554px) {
+    .contato-main {
+        height: 100%;
+    }
 }
 
 /* KEYFRAMES */
@@ -114,3 +154,4 @@ footer a {
     from {opacity: 0;}
     to {opacity: initial;}
 }
+
