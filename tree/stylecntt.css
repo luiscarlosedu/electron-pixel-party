@@ -44,6 +44,7 @@ body {
     height: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
 
 .contato-main article {
@@ -52,7 +53,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    padding-right: 20px;
+    padding: 10px;
 }
 
 .contato-main img {
@@ -74,8 +75,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 10px;
     gap: 20px;
-    padding-left: 20px;
 }
 
 .contato-main aside p {
