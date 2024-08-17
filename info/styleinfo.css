@@ -20,6 +20,10 @@ body {
     margin: auto;
     width: 100%;
     padding: 0px 16px;
+    animation-name: animacao;
+    animation-duration: 2s;
+    animation-delay: .1s;
+    transition: .3s;
 }
 
 header.info-header {
