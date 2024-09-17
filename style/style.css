@@ -132,8 +132,6 @@ section.home {
     font-size: 61px;
 }
 
-
-
 .home-content p {
     text-align: justify;
     font-size: 20px;
@@ -145,7 +143,6 @@ section.home {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    
 }
 
 .home-content .btn-box a {
@@ -213,6 +210,11 @@ section.home#novidades {
 
 section.home#novidades h1{
     font-size: 4vw;
+}
+
+section.home#novidades p {
+    font-size: 14px;
+    padding: 10px 10px 20px 0px;
 }
 
 section.home#sobre h1 {
@@ -315,6 +317,10 @@ section.home#sobre h1 {
 
     .home-content.creditos p {
         text-align: center;
+    }
+
+    section.home#novidades p {
+        padding: 10px 10px 10px 10px;
     }
 }
 
